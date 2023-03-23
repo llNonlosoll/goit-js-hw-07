@@ -1,7 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-// console.log(galleryItems);
-
-// Change code below this line
 
 // Створюємо галарею
 const galleryList = document.querySelector('.gallery');

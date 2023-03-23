@@ -1,6 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-// console.log(galleryItems);
-// Change code below this line
 
 // Створюємо галарею
 const galleryList = document.querySelector('.gallery');
@@ -26,6 +24,7 @@ function createGallery(images) {
 
 createGallery(galleryItems);
 
+// Ініціалізуємо plugin lightbox та додаємо параметри
 const lightbox = new SimpleLightbox('.gallery a', {
   captionSelector: 'img',
   captionType: 'attr',
