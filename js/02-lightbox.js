@@ -26,4 +26,9 @@ function createGallery(images) {
 
 createGallery(galleryItems);
 
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionSelector: 'img',
+  captionType: 'attr',
+  captionsData: 'alt',
+  captionDelay: 250,
+});
